@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+body{
+  overflow-x: hidden;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  background-image: url("/img/wallpaper-back.jpg.jpg");
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav-bar>.container{
+  padding-top: 40px;
+  position: relative;
+}
+
+.my-logo {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid red;
+  float: left;
+  z-index: 3456789;
+  margin: 0 auto;
+  position: absolute;
+  left: 0%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.my-logo-two {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  z-index: 9928789;
+  border-radius: 50%;
+  border: 2px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=navBar.css.map */
+.card{
+  margin: auto;
+  border: 2px solid red;
+}
+#card{
+  border: 2px solid red;
+}
+.img_box{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.emaile_box{
+  margin: 0 auto;
+  width: 200px;
+  transition: .3s;
+}
+.emaile_box:hover{
+  transform: scale(1.1);
+}
+
+.my-logo-tree{
+  width: 100%;
+}
+@media (max-width:750px){
+ .img_box{
+   flex-direction: column;
+   margin-left: 100px;
+ }
+ .emaile_box{
+   border-bottom: 2px blue;
+ }
+ .nav-bar>.container{
+   padding-top: 5px;
+ }
+}
+@media (max-width:378px){
+  .img_box{
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .emaile_box{
+    border-bottom: 2px blue;
+  }
+  .nav-bar>.container{
+    padding-top: 5px;
+  }
+  .biladigan_box>.container{
+    width: 300px;
+    margin-left: -10px;
+  }
+  .table{
+    width: 300px;
+  }
+  #none{
+    width: 301px;
+  }
+  
+ }
+ @media (max-width:340px){
+  .img_box{
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .emaile_box{
+    border-bottom: 2px blue;
+  }
+  .nav-bar>.container{
+    padding-top: 5px;
+  }
+  .biladigan_box>.container{
+    width: 300px;
+    margin-left: -10px;
+  }
+  .table{
+    width: 300px;
+  }
+  #none{
+    width: 301px;
+    display: none;
+  }
+  
+ }
